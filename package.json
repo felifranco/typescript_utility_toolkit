@@ -1,0 +1,22 @@
+{
+  "name": "typescript_utility_toolkit",
+  "version": "1.0.0",
+  "description": "Un paquete de utilidades escrito en Node.js con TypeScript, diseñado para proporcionar funciones reutilizables y bien documentadas que pueden integrarse fácilmente en otros proyectos. Este paquete cumple con los estándares de calidad de código, incluye documentación automática y es compatible con NPM y otros sistemas de paquetería privada.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/tools_and_templates/javascript/typescript_utility_toolkit.git"
+  },
+  "author": "Feliciano Franco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tools_and_templates/javascript/typescript_utility_toolkit/issues"
+  },
+  "homepage": "https://gitlab.com/tools_and_templates/javascript/typescript_utility_toolkit#readme",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
