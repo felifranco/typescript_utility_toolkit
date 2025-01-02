@@ -1,0 +1,11 @@
+{
+  "name": "Documentación de paquete",
+  "includeVersion": true,
+  "entryPoints": ["./src/*"],
+  "out": "docs",
+  //"sourceLinkTemplate": "https://vcs.example.com/{path}?at={gitRevision}#line={line}",
+  "disableSources": true,
+  //"cname": "https://f64franco.tech",
+  "hideGenerator": true
+  //"titleLink": "https://f64franco.tech",
+}

@@ -11,7 +11,8 @@
     "fix": "gts fix",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
-    "posttest": "npm run lint"
+    "posttest": "npm run lint",
+    "docs": "typedoc --logLevel Verbose"
   },
   "repository": {
     "type": "git",
@@ -24,8 +25,9 @@
   },
   "homepage": "https://gitlab.com/tools_and_templates/javascript/typescript_utility_toolkit#readme",
   "devDependencies": {
+    "@types/node": "^22.7.5",
     "gts": "^6.0.2",
-    "typescript": "^5.7.2",
-    "@types/node": "^22.7.5"
+    "typedoc": "^0.27.6",
+    "typescript": "^5.7.2"
   }
 }
